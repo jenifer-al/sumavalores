@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>SUMA ENTRE DOS NUMEROS</title>
+</head>
+<body class=" container w-4/5 mx-auto bg-linear-to-r from-cyan-200  to-cyan-200  " >
+
+
+          <header class=" bg-[url(imagenes/retulo.png)] bg-[length:100%_100%] bg-center bg-no-repeat mb-8 border-dashed border-[3px] border-cyan-900 rounded-3xl mt-1 overflow-hidden flex items-center justify-center 
+    
+    min-h-[80px] py-4 px-4 sm:border-8 sm:pr-16 md:py-9 md:justify-start  md:pl-20 md:border-[15px]   lg:w-full  lg:min-h-[150px] 
+
+    lg:rounded-[60px] lg:min-h-[200px] lg:py-24 lg:w-[98%] lg:max-w-[1800px] xl:pl-32 2xl:pl-40 mx-auto  "
+      >
+
+        
+        <h1 class="text-center text-cyan-900 font-black break-words [-webkit-text-stroke:2px_white] text-lg xs:text-xl sm:text-3xl
+
+         md:text-left md:text-4xl md:pl-40 lg:text-6xl lg:pl-40 xl:text-7xl xl:pl-40 2xl:text-8xl 2xl:pl-40  "
+        
+        >SUMA</h1>
+
+
+
+    </header>
+
+     <main class=""  >
+
+        <details class=" mb-10  bg-linear-to-r from-cyan-300 to-teal-100 mt-24 ml-1 rounded-3xl sm:mb-14 sm:mx-0 sm:ml-5    md:mb-16 md:ml-2   lg:mb-20  lg:ml-4  xl:ml-1   xl:mb-24 2xl:mb-28 mx-2   2xl:ml-10 ">
+
+            <summary class=" bg-linear-to-r from-cyan-400  to-cyan-200  text-cyan-700 font-black rounded-2xl pt-1  text-xs sm:text-sm  md:text-sm lg:pt-5 pb-3 lg:text-xl  ">Ejercicio 7.1.Suma valores entre dos números </summary>
+
+            <p class="ml-2">
+              Crea un programa que solicite dos números enteros y calcule la suma de los valores comprendidos entre los dos números, incluidos.
+             Ejemplo: 4 y 6 --> resultado = 4 + 5 + 6 = 15</p>
+              
+          </details>  
+          
+          
+            <div class=" border border-cyan-600 border-solid rounded-3xl pt-1 w-5/6 pb-4 ml-0 px-3 sm:ml-4 sm:py-2 sm:w-full
+
+              md:ml-5 md:py-1 lg:w-4/5 lg:ml-9 lg:py-1 
+             
+             xl:w-4/5  xl:ml-11 xl:pt-1  xl:py-4 2xl:ml-24  " >
+
+
+            <div class="pl-1 pb-2 pt-2 ">
+
+                <label class=" text-sm text-cyan-700 font-black pl-1 sm:text-base lg:text-lg xl:text-xl  xl:pl-32  min-w-max " >introduce un numero entero: </label>
+
+                <input class="  border border-cyan-600 border-solid rounded-3xl px-1 py-1 text-sm text-cyan-700 font-black pb-1 mb-3 sm:text-[10px] sm:px-0.5 sm:w-52
+                
+                    sm:mt-2    sm:ml-32
+
+                 md:text-base md:mt-1.5 md:py-1 md:w-52  lg:py-1  lg:text-lg lg:w-72 lg:px-3  xl:text-xl xl:w-[400px]  xl:px-4 
+
+                  xl:py-2 xl:text-center   2xl:py-1 2xl:px-4  2xl:text-xl  2xl:pt-2  2xl:w-[500px]  w-full mb-0   "    type="number" id="numero_uno">
+
+            </div>
+
+            <div>
+
+            <label class=" text-sm text-cyan-700 font-black pl-1 sm:text-base lg:text-lg xl:text-xl  xl:pl-32 min-w-max " >introduce otro numero  entero: </label>
+
+            <input  class="   border border-cyan-600 border-solid rounded-3xl px-1 py-1 text-sm text-cyan-700 font-black pb-1 mb-3 sm:text-[10px] sm:px-0.5 sm:w-52
+                
+                    sm:mt-2    sm:ml-32
+
+                 md:text-base md:mt-1.5 md:py-1 md:w-52  lg:py-1  lg:text-lg lg:w-72 lg:px-3  xl:text-xl xl:w-[400px]  xl:px-4 
+
+                  xl:py-2 xl:text-center   2xl:py-1 2xl:px-4  2xl:text-xl  2xl:pt-2  2xl:w-[500px]  w-full mb-0    "   type="number" id="numero_dos">
+
+           </div> 
+           <div class="text-center pt-3">
+                <button class="  border-2 border-cyan-600 border-solid rounded-3xl px-1 py-0.5 text-[10px] font-bold bg-cyan-600 text-white cursor-pointer
+
+                      ml-6
+
+                      hover:bg-linear-to-r hover:from-green-300 hover:to-teal-500-200 hover:text-green-800 w-auto ml-0 sm:text-[11px] sm:px-1.5 sm:py-1 sm:min-w-max
+
+                      sm:ml-10
+
+                        md:text-sm md:px-1 md:py-1 lg:text-base lg:px-3 lg:py-1 xl:text-xl xl:px-5 xl:ml-5 xl:py-2 2xl:px-5 2xl:py-2  " type="button" onclick="calcular()">CALCULAR</button>
+          </div> 
+
+
+          </div>
+          
+          
+
+
+            </div>
+
+                <p class=" text-sm   text-cyan-700 font-black pl-14  sm:ml-20 sm:pt-10  sm:text-base md:text-sm md:ml-36  lg:text-lg  lg:ml-36 xl:text-xl  xl:pl-28  2xl:text-xl 2xl:ml-36 mt-2
+                
+                 sm:mt-0 md:mt-0 break-words w-full  "  id="resultado"></p>
+             </div>
+
+
+
+
+   <script src="js/suma.js"></script> 
+    
+</body>
+</html>
